@@ -1,0 +1,54 @@
+#current_state_text, #decoration_text {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#decoration_text {
+	display: inline;
+}
+
+#grid {
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: repeat(24, 1fr);
+	grid-template-rows: repeat(24, 1fr);
+}
+
+#start {
+	background-color: green;
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	margin-bottom: 8px;
+	padding: 8px;
+}
+
+#start:hover {
+	cursor: pointer;
+}
+
+.box {
+	background-color: grey;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.boxAlive {
+	background-color: green;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.boxFood {
+	background-color: orange;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+.boxWall {
+	background-color: black;
+	border-radius: 4px;
+	padding: 10px;
+}
